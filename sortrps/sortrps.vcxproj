@@ -134,6 +134,11 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="merge_sort.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\sortrps_core\sortrps_core.vcxproj">
+      <Project>{33a86332-a0ac-443f-8cb2-570b62be75dc}</Project>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
